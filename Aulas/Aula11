@@ -1,0 +1,34 @@
+"""
+Cores no terminal
+ANSI escape sequence
+Sempre que quiser mostrar cor -style;text;back;- exemplo: \033[0;0;0m
+
+    style (estilo da letra)
+         0 None (Nada)
+         1 Bold (Negrito)
+         4 Underline (Sublinhado)
+         7 Negative (Inverte)
+
+   text (Cor do texto)
+        30 Preto
+        31 Vermelho
+        32 Verde
+        33 Amarelo
+        34 Azul
+        35 Magenta
+        36 Ciano
+        37 Cinza
+        97 Branco
+
+    back (Cor de fundo)
+         40 Preto
+         41 Vermelho
+         42 Verde
+         43 Amarelo
+         44 Azul
+         45 Magenta
+         46 Ciano
+         47 Cinza
+         107 Branco
+         """
+print('\033[4;30;47mOlá, Mundo!')
