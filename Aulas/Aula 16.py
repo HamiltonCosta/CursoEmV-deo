@@ -25,5 +25,4 @@ c = a + b
 #print(sorted(c))
 '''
 pessoa = ('Gustavo', 39, 'M', 99.24)
-del(pessoa)
 print(pessoa)
